@@ -58,15 +58,16 @@ Required environment variables:
 
 ```plaintext
 # API Configuration
-API_KEY=your_api_key
+API_KEY=your_api_key_here
 PORT=8000
 HOST=0.0.0.0
 
 # Browser Configuration
 BROWSER_POOL_SIZE=1
 PAGE_TIMEOUT=300000
+DETAILED_LOGGING=false
 
-# Resource Cache Configuration
+# Cache Configuration
 CACHE_DIR=cache
 ENABLE_CACHING=true
 
