@@ -1,4 +1,4 @@
-# Base Web Scraper
+# Template Web Scraper
 
 A comprehensive web scraping template built with FastAPI and Playwright. Features multi-level caching, proxy support, and extensive configurability.
 
@@ -25,8 +25,8 @@ A comprehensive web scraping template built with FastAPI and Playwright. Feature
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/DanielWTE/base-web-scraper.git
-cd base-web-scraper
+git clone https://github.com/DanielWTE/template-web-scraper.git
+cd template-web-scraper
 ```
 
 2. Create and activate virtual environment:
@@ -93,8 +93,8 @@ uvicorn main:app --reload --reload-exclude 'venv'
 Build and run with Docker:
 
 ```bash
-docker build -t base-web-scraper .
-docker run -p 8000:8000 base-web-scraper
+docker build -t template-web-scraper .
+docker run -p 8000:8000 template-web-scraper
 ```
 
 ## API Endpoints
